@@ -95,5 +95,6 @@ export const ProjectsSection = () => {
                 </div>
             </div>
         </section>
+
     );
 };

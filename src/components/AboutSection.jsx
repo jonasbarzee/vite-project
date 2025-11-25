@@ -1,4 +1,5 @@
 import { User, Briefcase, Code } from "lucide-react"
+// import resume from "/resume/resume.pdf"
 
 export const AboutSection = () => {
     return (
@@ -12,7 +13,7 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Developer & Creator
+                            Passionate Engineer and Developer
                         </h3>
 
                         <p className="text-muted-foreground">
@@ -33,7 +34,11 @@ export const AboutSection = () => {
                                 Get In Touch
                             </a>
 
-                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 tranition-colors duration-300">
+                            <a
+                             href="./resume/resume.pdf" 
+                             className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 tranition-colors duration-300"
+                             download
+                             >
                                 Download Resume
                             </a>
                         </div>
@@ -76,8 +81,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Project Management</h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from brainstorming to completion with
-                                        agile methodologies.
+                                        Leading projects with teams from brainstorming to
+                                        completion with agile methodologies.
                                     </p>
                                 </div>
                             </div>
