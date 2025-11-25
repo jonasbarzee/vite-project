@@ -15,6 +15,7 @@ const isWSL = process.platform === 'linux' &&
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/vite-project/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
