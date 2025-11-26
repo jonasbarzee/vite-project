@@ -17,7 +17,7 @@ export const AboutSection = () => {
                         </h3>
 
                         <p className="text-muted-foreground">
-                            Currently pursing a BS in Computer Science with a minor in math, I specialize
+                            Currently pursuing a BS in Computer Science with a minor in math, I specialize
                             in creating responsive, accesible, and preformant applications
                             using modern technologies.
                         </p>
